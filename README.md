@@ -1,5 +1,5 @@
 # cordova-plugin-ios-xhr
-## cordova-ios 6+ File XHR Plugin
+## cordova-ios 67+ File XHR Plugin
 
 Fixes local file access via XHR with WKWebView
 
