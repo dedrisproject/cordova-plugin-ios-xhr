@@ -1,7 +1,7 @@
 # cordova-plugin-ios-xhr
 ## cordova-ios 67+ File XHR Plugin
 
-Fixes local file access via XHR with WKWebView
+This Plugin Fixes local file access via AJAX / XHR with WKWebView on iOS
 
 ### About
 > Originally, this plugin was a merge of two other plugins, and made compatible for cordova-ios 6+.
@@ -34,6 +34,6 @@ Fixes local file access via XHR with WKWebView
 
 >Since the application's starting page is loaded from the device's file system, all XHR requests to remote endpoints are considered cross origin. For such requests, WKWebView specifies "null" as the value of the Origin header, which will be rejected by endpoints that are configured to disallow requests from the null origin. This plugin works around that issue by handling all remote requests at the native layer where the origin header will be excluded
 
->Fixes local file access via XHR with WKWebView
+>Fixes local file access via AJAX / XHR with WKWebView on iOS
 
 >CustomUserAgent is only set for XHR requests and does not override cordova's OverrideUserAgent
