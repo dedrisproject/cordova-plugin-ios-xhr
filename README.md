@@ -14,11 +14,11 @@ Fixes local file access via XHR with WKWebView
 
 > Install latest release
 
-     cordova plugin add https://github.com/LascoWebDev/cordova-plugin-ios-xhr
+     cordova plugin add https://github.com/dedrisproject/cordova-plugin-ios-xhr
      
 ### Uninstall
 
-     cordova plugin rm @LascoWebDev/cordova-plugin-ios-xhr
+     cordova plugin rm @dedrisproject/cordova-plugin-ios-xhr
      
 ### Preferences
 
